@@ -1,10 +1,12 @@
 import * as React from "react";
 import "./Application.scss";
 
+import Task from "../Task";
+
 const Application = () => {
   return (
     <div className="Application">
-      <div>Hello, World!</div>
+      <Task />
     </div>
   );
 };
