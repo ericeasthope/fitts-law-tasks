@@ -1,1 +1,1 @@
-# steering-law-task
+# fitts-law-tasks
