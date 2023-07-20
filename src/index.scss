@@ -5,6 +5,8 @@ body {
   background-color: #080808;
   color: #e8e8e8;
   font-family: sans-serif;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 .Application {
@@ -14,7 +16,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  svg {
-    background-color: #111;
+  canvas {
+    display: block;
   }
 }
